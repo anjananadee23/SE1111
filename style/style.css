@@ -1,0 +1,337 @@
+/*****COMMON CSS SECTION*****/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	font-family:'Roboto', sans-serif, arial;
+	font-size: 15px;
+}
+.container {
+	width: 1170px;
+	margin: 0px auto;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+}
+.width-50 {
+	float: left;
+	width: 50%;
+}
+.width-75 {
+	width: 75%;
+	float: left;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-25 {
+	width: 25%;
+	float: left;
+}
+
+/*****HEADER SECTION*****/
+.header {
+	padding-top: 20px;
+	padding-bottom: 60px
+}
+.header-menu {
+	list-style: none;
+	margin-top: 10px;
+}
+.header-menu li {
+	float: left;
+	font-size: 15px;
+}
+.header-menu a {
+	font-size: 17px;
+	text-decoration: none;
+	color: #2C5F2D;
+	font-weight: bold;
+	padding: 25px;
+}
+.header-menu a:hover {
+    text-decoration: underline;
+	
+
+
+
+}
+.button-login {
+	background-color: #20948B;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+    width: 70px;
+}
+.button-sign-in {
+	background-color:#6AB187;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	text-decoration: none;
+    width: 70px;
+}
+.button-login:hover,
+.button-sign-in:hover {
+    background-color:#31473A; /* Change background color on hover */
+}
+
+.banner-section {
+	background-image: url("../assets/images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 350px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.banner-heading {
+	font-size: 35px;
+	color: white;
+	padding-top: 70px;
+    animation: moveText 9s linear infinite;
+	
+}
+.banner-para {
+	font-size: 25px;
+	color: #fff;
+	padding-top: 10px;
+    animation: moveText 9s linear infinite;
+    
+}
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+
+.search-sect {
+	margin-top: 40px;
+	width: 25%;
+	float: left;
+	position: relative;
+}
+.search-textbox {
+	height: 40px;
+	width: 100%;
+	padding-left: 10px;
+	border-top:none;
+	border-bottom:none;
+	border-color: black;
+	border-right: none;
+	border-width: 2px;
+}
+.search-button {
+	width: 100%;
+	height: 40px;
+	background-color: #31473A;
+	border: none;
+	color: white;
+}
+.search-button:hover {
+    background-color: #1e2e23; /* Change background color on hover */
+}
+
+
+.search-sect .icons {
+	position: absolute;
+	top: 12px;
+	right: 10px
+}
+/*****SKILL SECTION SKILL SECTION SKILL SECTION*****/
+.skill-section {
+	background-color: #00000008;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.skill-list {
+	background-color: white;
+	width: 23%;
+	float: left;
+	margin-left: 15px;
+	padding-top: 10px;
+	border-radius: 5px;
+	padding-left: 8px;
+	padding-bottom: 10px;
+}
+.skill-list img {
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+}
+.skill-list h4 {
+	font-size: 16px;
+	color: #313538;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-top: 8px
+}
+.view-button {
+	width: 45%;
+	height: 20px;
+	border-radius: 20px;
+	border: none;
+	background-color: #e34216;
+	color: white;
+	font-size: 11px;
+	padding-left: 5px;
+	margin-top: 15px;
+}
+
+/*****RECENT JOB SECTION RECENT JOB SECTION*****/
+.recent-job {
+	padding-top: 50px;
+	background-color: #f0f3fa;
+	padding-bottom: 70px;
+}
+
+.recent-job-heading {
+	text-align: center;
+	color: #343a40;
+    font-size: 35px;
+}
+
+
+
+.recent-job-list {
+	float: left;
+	background-color:#E7E8D1;
+	padding: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.job-title {
+	font-size: 20px;
+}
+
+.job-company {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.job-company i {
+	color: orange;
+	margin-left: 10px;
+}
+
+.job-skill {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.job-apply-button {
+	background: #A7BEAE;
+	padding: 10px;
+	color:black;
+	text-decoration: none;
+	float: right;
+}
+.job-apply-button:hover {
+	background: #86A28A; /* Change background color on hover */
+	
+}
+
+/******FOOTER SECTION******/
+.footer-list {
+	list-style: none;
+	line-height: 35px;
+	padding-top: 20px;
+}
+
+.footer-background {
+	background-color: #222328;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	color: rgba(255, 255, 255, .86);
+}
+
+.get-in-touch {
+	list-style: none;
+	line-height: 15px;
+	padding-top: 20px
+}
+
+.get-in-touch img {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	border-radius: 0px;
+	float: left;
+	padding-top: 20px
+}
+
+.get-in-touch i {
+	float: left;
+	color: #eb372a;
+	font-size: 16px;
+	line-height: 15px;
+}
+
+.get-in-touch p {
+	padding-left: 30px;
+	color: rgba(255, 255, 255, .86);
+	margin-top: 20px
+}
+
+/******FOOTER SECTION******/
+
+.width-100 {
+    width: 100%;
+  }
+  
+  .skill-section {
+    position: relative;
+  }
+  
+ 
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:10px;
+    height: 30px;
+    /* background-color: #ccc; */
+    cursor: pointer;
+    opacity: 2.5;
+  }
+  
+  .left {
+    left: 20px;
+  }
+  
+  .right {
+    right: 20px;
+  }
+  
+  .arrow:hover {
+    opacity: 1;
+  }
+  
+
+
+
