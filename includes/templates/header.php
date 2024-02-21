@@ -9,7 +9,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>My Jobs</title>
+  <title>My Jobs Portal</title>
   <meta name="title" content="My Jobs - Job Portal">
   <meta name="description" content="This is a famous job portal">
 
